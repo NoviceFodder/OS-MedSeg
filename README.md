@@ -20,4 +20,5 @@ You can download the CT pre-trained model here: [Download OS-MedSeg pre-trained 
 ![image](https://github.com/NoviceFodder/OS-MedSeg/blob/main/figures/OASIS-boxplots.png)
 ### Visualization of Segmentation
 ![image](https://github.com/NoviceFodder/OS-MedSeg/blob/main/figures/res_visualize.png)
+
 You can find more details in our paper.

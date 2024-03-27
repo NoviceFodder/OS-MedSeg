@@ -28,6 +28,10 @@ You can download the CT pre-trained model here: [Download OS-MedSeg pre-trained 
 
 You can find more details in our paper.
 ### Hyperparameter searching
+We run a set of new experiments for the hyperparameter analysis. Specifically, we set the weight for the recon loss ($\lambda_{recon}$) and contrastive loss
+( β) as 0.001, 0.01, 0.1, 1, 10, respectively. As shown in
+Fig. 8, the best combination is our current setting (alpha=1
+and beta=0.01), which gives the highest dice result of 0.763.
 ![image](https://github.com/NoviceFodder/OS-MedSeg/blob/main/figures/hyperparam_search.png)
 # Reference
 Some codes are referenced from [VoxelMorph](https://github.com/voxelmorph/voxelmorph) and [CLMorph](https://github.com/lihaoliu-cambridge/unsupervised-medical-image-segmentation). Thanks a lot for their great contribution.

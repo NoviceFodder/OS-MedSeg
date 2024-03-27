@@ -27,6 +27,8 @@ You can download the CT pre-trained model here: [Download OS-MedSeg pre-trained 
 ![image](https://github.com/NoviceFodder/OS-MedSeg/blob/main/figures/intro.png)
 
 You can find more details in our paper.
+### Hyperparameter searching
+![image](https://github.com/NoviceFodder/OS-MedSeg/blob/main/figures/hyperparam_search.png)
 # Reference
 Some codes are referenced from [VoxelMorph](https://github.com/voxelmorph/voxelmorph) and [CLMorph](https://github.com/lihaoliu-cambridge/unsupervised-medical-image-segmentation). Thanks a lot for their great contribution.
 

@@ -1,7 +1,7 @@
 # OS-MedSeg
 This is a PyTorch implementation of OS-MedSeg: Distillation Learning Guided by Image Reconstruction for One-Shot Medical Image Segmentation.
 ## Framework Architecture
-![image](https://github.com/NoviceFodder/OS-MedSeg/blob/main/figures/Framework.png)
+![image](https://github.com/NoviceFodder/OS-MedSeg/blob/main/figures/Framework_v2.png)
 ## Demo
 In [test_example.ipynb](https://github.com/NoviceFodder/OS-MedSeg/blob/main/test_example.ipynb), we provide a demo for medecal image segmentation. 
 

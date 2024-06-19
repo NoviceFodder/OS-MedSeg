@@ -194,7 +194,7 @@ class teacher_student_model(nn.Module):
             device: str
     ):
         super().__init__()
-        '''
+        
         self.teacher_model = recon_vae_unet(
             in_channel=in_channel,
             num_class=num_class,
@@ -203,7 +203,6 @@ class teacher_student_model(nn.Module):
             vae = vae,
             device=device
         )
-        '''
         self.student_model = UNet_distill(
             in_channel=in_channel,
             num_class=num_class,
@@ -212,24 +211,29 @@ class teacher_student_model(nn.Module):
             device=device
         )
         
-    def forward(self, x, y, is_Training=False) -> Tensor:
+    def forward(self, x, y, is_Training) -> Tensor:
         '''
         Parameters:
             x: Image for student model -> tensor.
             y: Image for teacher model -> tensor.
         '''   
-        '''
         if is_Training:
             recon,teacher_features = self.teacher_model(y)
             student_pred_label,student_features = self.student_model(x) 
             return teacher_features,recon,student_pred_label,student_features  
-        '''
         
-        student_pred_label,student_features = self.student_model(x) 
-        return student_pred_label,student_features  
+        else:
+            student_pred_label,student_features = self.student_model(x) 
+            return student_pred_label,student_features  
+    
+    def set_freeze_teacher(self, freeze: bool):
+        self.freeze_teacher = freeze
 
-
-
+    def get_optimizer_parameters(self):
+        if self.freeze_teacher:
+            return self.student_model.parameters()
+        else:
+            return self.parameters()
 
 
 

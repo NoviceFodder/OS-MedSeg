@@ -34,6 +34,8 @@ You can download the VerSe pre-trained model here: [Download our pre-trained mod
 
 ### Boxplots for OASIS
 <img src="https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/OASIS_boxplots.png" alt="OASIS Boxplots" />
+
 You can find more details in our paper.
+
 # Reference
 Some codes are referenced from [VoxelMorph](https://github.com/voxelmorph/voxelmorph) and [CLMorph](https://github.com/lihaoliu-cambridge/unsupervised-medical-image-segmentation). Thanks a lot for their great contribution.

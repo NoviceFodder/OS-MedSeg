@@ -3,9 +3,11 @@ This is a PyTorch implementation of: Distillation Learning Guided by Image Recon
 ## Overview 
 <img src="https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/intro.png" alt="Description" width="50%" height="50%" />
 Overview of our problem. Our proposed method achieves natural, realistic, and smooth segmentation, outperforming current state-of-the-art one-shot method.
+
 ## Framework Architecture
-![image](https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/Framework.png)
-![image](https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/unet_detail.png)
+<img src="https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/Framework.png" alt="Framework" />
+<img src="https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/unet_detail.png" alt="UNet Detail" />
+
 ## Demo
 In [test_example.ipynb](https://github.com/NoviceFodder/OS-MedSeg/blob/main/test_example.ipynb), we provide a demo for medecal image segmentation. 
 
@@ -24,12 +26,11 @@ You can download the BCV pre-trained model here: [Download our pre-trained model
 You can download the VerSe pre-trained model here: [Download our pre-trained model on VerSe](https://drive.google.com/file/d/1sHApcMk8ZMmIhI-S_Jk32YEf7nyKcZyx/view?usp=drive_link)
 ## Segmentation Results
 ### Visualization of Segmentation
-![image](https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/res_main.png)
+<img src="https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/res_main.png" alt="Segmentation Results" />
 ### Boxplots for BCV
-![image](https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/bcv_boxplots.png)
+<img src="https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/bcv_boxplots.png" alt="BCV Boxplots" />
 ### Boxplots for OASIS
-![image](https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/OASIS_boxplots.png)
+<img src="https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/OASIS_boxplots.png" alt="OASIS Boxplots" />
 You can find more details in our paper.
 # Reference
 Some codes are referenced from [VoxelMorph](https://github.com/voxelmorph/voxelmorph) and [CLMorph](https://github.com/lihaoliu-cambridge/unsupervised-medical-image-segmentation). Thanks a lot for their great contribution.
-

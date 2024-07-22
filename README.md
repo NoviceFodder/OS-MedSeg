@@ -1,12 +1,13 @@
 # OS-MedSeg
 This is a PyTorch implementation of: Distillation Learning Guided by Image Reconstruction for One-Shot Medical Image Segmentation.
 ## Overview 
-<img src="https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/intro.png" alt="Description" width="50%" height="50%" />
+<div style="text-align: center;">
+  <img src="https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/intro.png" alt="Description" width="50%" height="50%" />
+</div>
 Overview of our problem. Our proposed method achieves natural, realistic, and smooth segmentation, outperforming current state-of-the-art one-shot method.
 
 ## Framework Architecture
 <img src="https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/Framework.png" alt="Framework" />
-<img src="https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/unet_detail.png" alt="UNet Detail" />
 
 ## Demo
 In [test_example.ipynb](https://github.com/NoviceFodder/OS-MedSeg/blob/main/test_example.ipynb), we provide a demo for medecal image segmentation. 
@@ -27,8 +28,10 @@ You can download the VerSe pre-trained model here: [Download our pre-trained mod
 ## Segmentation Results
 ### Visualization of Segmentation
 <img src="https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/res_main.png" alt="Segmentation Results" />
+
 ### Boxplots for BCV
-<img src="https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/bcv_boxplots.png" alt="BCV Boxplots" />
+<img src="https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/bcv_boxplots.png" alt="BCV Boxplots"  width="50%" height="50%"/>
+
 ### Boxplots for OASIS
 <img src="https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/OASIS_boxplots.png" alt="OASIS Boxplots" />
 You can find more details in our paper.

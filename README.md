@@ -1,7 +1,7 @@
 # OS-MedSeg
 This is a PyTorch implementation of: Distillation Learning Guided by Image Reconstruction for One-Shot Medical Image Segmentation.
 ## Overview 
-![image](https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/intro.png)
+![image](https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/intro.png){width=50%}
 Overview of our problem. Our proposed method achieves natural, realistic, and smooth segmentation, outperforming current state-of-the-art one-shot method.
 ## Framework Architecture
 ![image](https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/Framework.png)
@@ -26,9 +26,9 @@ You can download the VerSe pre-trained model here: [Download our pre-trained mod
 ### Visualization of Segmentation
 ![image](https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/res_main.png)
 ### Boxplots for BCV
-![image](https://github.com/NoviceFodder/OS-MedSeg/blob/main/figures/bcv_boxplots.png)
+![image](https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/bcv_boxplots.png)
 ### Boxplots for OASIS
-![image](https://github.com/NoviceFodder/OS-MedSeg/blob/main/figures/OASIS_boxplots.png)
+![image](https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/OASIS_boxplots.png)
 You can find more details in our paper.
 # Reference
 Some codes are referenced from [VoxelMorph](https://github.com/voxelmorph/voxelmorph) and [CLMorph](https://github.com/lihaoliu-cambridge/unsupervised-medical-image-segmentation). Thanks a lot for their great contribution.

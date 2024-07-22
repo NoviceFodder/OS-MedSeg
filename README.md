@@ -1,7 +1,7 @@
 # OS-MedSeg
 This is a PyTorch implementation of: Distillation Learning Guided by Image Reconstruction for One-Shot Medical Image Segmentation.
 ## Overview 
-<img src="https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/intro.png" alt="Description" width="500" height="500";" />
+<img src="https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/intro.png" alt="Description" ;" />
 Overview of our problem. Our proposed method achieves natural, realistic, and smooth segmentation, outperforming current state-of-the-art one-shot method.
 ## Framework Architecture
 ![image](https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/Framework.png)

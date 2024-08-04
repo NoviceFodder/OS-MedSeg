@@ -7,7 +7,7 @@ This is a PyTorch implementation of: Distillation Learning Guided by Image Recon
 Overview of our problem. Our proposed method achieves natural, realistic, and smooth segmentation, outperforming current state-of-the-art one-shot method.
 
 ## Framework Architecture
-<img src="https://github.com/NoviceFodder/OS-MedSeg/blob/main/figuers/Framework.png" alt="Framework" />
+We will update later.
 
 ## Demo
 In [test_example.ipynb](https://github.com/NoviceFodder/OS-MedSeg/blob/main/test_example.ipynb), we provide a demo for medecal image segmentation. 
